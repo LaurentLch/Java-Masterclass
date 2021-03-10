@@ -1,4 +1,4 @@
-package Section7_OOP_Part2_Composition_Encapsulation_Polymorphism.B_Encapsulation.Video.Exercises;
+package Section7_OOP_Part2_Composition_Encapsulation_Polymorphism.B_Encapsulation.Exercises;
 
 public class Printer {
 
@@ -28,4 +28,6 @@ public class Printer {
     public int getPagesPrinted(){
         return pagesPrinted;
     }
+
+
 }

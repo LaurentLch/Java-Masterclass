@@ -1,4 +1,4 @@
-package Section7_OOP_Part2_Composition_Encapsulation_Polymorphism.B_Encapsulation.Video.Introduction;
+package Section7_OOP_Part2_Composition_Encapsulation_Polymorphism.B_Encapsulation.Video;
 
 public class Main {
     public static void main(String[] args) {
