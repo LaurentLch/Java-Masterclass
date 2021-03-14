@@ -17,7 +17,5 @@ public class Main {
         timsPhone.callPhone(123456789);
         timsPhone.answer();
 
-
-
     }
 }
