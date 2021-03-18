@@ -1,4 +1,4 @@
-package Section9_Arrays_JavaInBuiltLists_AutoBoxing_Unboxing.B_ArrayList.Videos.ArrayListExample;
+package Section8_Arrays_JavaInBuiltLists_AutoBoxing_Unboxing.B_ArrayList.Videos.ArrayListExample;
 
 import java.util.ArrayList;
 
