@@ -1,4 +1,4 @@
-package Section9_Arrays_JavaInBuiltLists_AutoBoxing_Unboxing.A_Arrays.Challenge;
+package Section8_Arrays_JavaInBuiltLists_AutoBoxing_Unboxing.A_Arrays.Challenge;
 import java.util.Arrays;
 import java.util.Scanner;
 // Create a program using arrays that sorts a list of integers in descending order.
