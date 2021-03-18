@@ -87,7 +87,7 @@ public class Main {
 //
 //    NOTE:  There are no static members.
 //
-//    NOTE:  Do not add a main method to the solution code.
+//    Ngit add .OTE:  Do not add a main method to the solution code.
 //
 //    NOTE:  If you get an error from the Evaluate class, it's most likely the constructor. Check if you've added a constructor or if the constructor has the right arguments.
 }
