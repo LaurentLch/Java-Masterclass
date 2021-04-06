@@ -1,6 +1,7 @@
-package Section9_InnerClasses_AbstractClasses_Interfaces.A_Interfaces.Video;
+package Section9_InnerClasses_AbstractClasses_Interfaces.A_Interfaces.Video.Theory1;
 
 public class MobilePhone implements ITelephone{
+
     private int myNumber;
     private boolean isRinging;
     private boolean isOn = false;
@@ -9,25 +10,26 @@ public class MobilePhone implements ITelephone{
         this.myNumber = myNumber;
     }
 
-    //ALT + INSERT -> IMPLEMENT METHODS (ALL METHODS NEED TO BE IMPLEMENTED)
+
     @Override
     public void powerOn() {
         isOn = true;
-        System.out.println("Mobile phone powered up");
+        System.out.println("MobilePhone powered up");
     }
 
     @Override
     public void dial(int phoneNumber) {
-        if(isOn) {
+        if(isOn){
             System.out.println("Now ringing " + phoneNumber + " on mobile phone");
         }else{
-            System.out.println("Mobile phone is switched off");
+            System.out.println("Phone is switched off");
         }
+
     }
 
     @Override
     public void answer() {
-        if(isRinging){
+        if (isRinging) {
             System.out.println("Answering the mobile phone");
             isRinging = false;
         }
@@ -35,12 +37,11 @@ public class MobilePhone implements ITelephone{
 
     @Override
     public boolean callPhone(int phoneNumber) {
-        if (phoneNumber == myNumber && isOn){
+        if (phoneNumber == myNumber && isOn) {
             isRinging = true;
-            System.out.println("Melody playing");
-        }else{
+            System.out.println("Ringtone");
+        } else {
             isRinging = false;
-            System.out.println("Mobile phone not on");
         }
         return isRinging;
     }

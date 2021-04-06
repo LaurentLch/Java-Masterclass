@@ -9,7 +9,7 @@ public class MobilePhone {
     private final ArrayList<Contact> myContacts;
 
     //CONSTRUCTOR ///////////////////////////////////////////////////////
-    public MobilePhone(String myNumber) {
+    public MobilePhone(int myNumber) {
         this.myNumber = myNumber;
         this.myContacts = new ArrayList<Contact>();
     }

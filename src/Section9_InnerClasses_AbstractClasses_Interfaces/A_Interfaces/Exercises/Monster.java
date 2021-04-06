@@ -1,0 +1,62 @@
+package Section9_InnerClasses_AbstractClasses_Interfaces.A_Interfaces.Exercises;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Monster implements ISaveable{
+
+    //INSTANCE VARIABLES
+    private String name;
+    private int hitPoints;
+    private int strength;
+
+    //CONSTRUCTORS
+    public Monster(String name, int hitPoints, int strength) {
+        this.name = name;
+        this.hitPoints = hitPoints;
+        this.strength = strength;
+    }
+
+    //GETTERS
+    public String getName() {
+        return name;
+    }
+
+    public int getHitPoints() {
+        return hitPoints;
+    }
+
+    public int getStrength() {
+        return strength;
+    }
+
+    //METHODS
+    @Override
+    public List<String> write() {
+        List<String> values = new ArrayList<>();
+        values.add(0, this.name);
+        values.add(1, "" + this.hitPoints);
+        values.add(2, "" + this.strength);
+
+        return values;
+    }
+
+    @Override
+    public void read(List<String> list) {
+        if (list != null && list.size() > 0) {
+            this.name = list.get(0);
+            this.hitPoints = Integer.parseInt(list.get(1));
+            this.strength = Integer.parseInt(list.get(2));
+        }
+    }
+
+    //TO STRING METHODS
+    @Override
+    public String toString() {
+        return "Monster{" +
+                "name='" + name + '\'' +
+                ", hitPoints=" + hitPoints +
+                ", strength=" + strength +
+                '}';
+    }
+}
