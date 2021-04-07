@@ -3,9 +3,6 @@ package Section8_Arrays_JavaInBuiltLists_AutoBoxing_Unboxing.D_LinkedLists.Chall
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-/**
- * Created by dev on 18/09/15.
- */
 public class Album {
     private String name;
     private String artist;
